@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    position: fixed;
+    height: 4.5vh;
+    width: 100vw;
+    justify-content: flex-start;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #cc3d2a;
+
+}
+
+.logo{
+    height: 1vh;
+    width: 1vh;
+    float: right;
+    margin-right: 10vh;
+}
+
+.links{
+    display: inline;
+}
+
+.links a{
+    text-decoration: none;
+    font-family: 'concert one', sans-serif;
+    font-size: 1.1em;
+    letter-spacing: .6px;
+    font-weight: 500;
+    padding-top: 1vh;
+    padding-bottom: 1.2vh;
+    padding-left: 1.5vh;
+    padding-right: 1.5vh;
+    opacity: .8;
+    transition: 0.5s
+    
+}
+
+.links a:hover{
+    opacity: 1;
+    margin: .5vh;
+    transition: 0.5s;
+    font-size: 1.1em;
+}
+
+.banner{
+    background-image: url(images/bgimg.png);
+    background-position: center;
+    height: 92vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #FFFDDD;
+    
+}
+
+.htextheading{
+    padding-top: 28vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    margin-bottom: -8vh;
+    text-align: center;
+    line-height: 1.4;
+    font-size: 2em;
+    font-weight: bolder;
+    font-family: 'lemon', sans-serif;
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 5px rgb(255, 255, 255), 5px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+}
+
+.htextsubheading{
+    text-align: center;
+    padding: 10vh;
+    font-size: 1.3em;
+    font-family: 'Concert One', sans-serif;
+}
+
+.bannertwo{
+    background-image: url(images/backgroundimg.jpg);
+    background-position: center;
+    height: 92vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #FFFDDD;
+}
+
+.textheading{
+    padding-top: 10vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 2em;
+    font-family: 'lemon', sans-serif;
+    text-shadow: -2px 2px 0 #FFFDDD, 5px 5px 0 #FFFDDD, 2px -2px 0 #FFFDDD, -2px -2px 0 #FFFDDD;
+}
+
+.textparagraph{
+    background: -webkit-radial-gradient(#eee6ec, #cecae2, #adbdcc);
+    border: 5px solid #ffffff;
+    border-radius: 7px;
+    position: relative;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 2vh;
+    padding: 5vh;
+    text-align: center;
+    font-family: 'Concert One', sans-serif;
+    color: #26284d;
+    font-size: 1.2em;
+    word-spacing: 3.2px;
+    line-height: 24px;
+    box-shadow: 1px 1px 2px rgb(146, 145, 145), 0 0 22px rgb(93, 104, 168), 0 0 3px rgb(253, 253, 255);
+}
+
+.bannerthree{
+    background-image: url(images/refbg.png);
+    background-position: center;
+    height: 92vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #FFFDDD;
+}
+
+.referencesh{
+    padding-top: 20vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 2em;
+    font-family: 'lemon', sans-serif;
+    text-shadow: -2px 2px 0 #FFFDDD, 5px 5px 0 #FFFDDD, 2px -2px 0 #FFFDDD, -2px -2px 0 #FFFDDD;
+}
+
+.referencesp{
+    position: relative;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    margin-top: 5vh;
+    padding: 5vh;
+    text-align: left;
+    font-family: 'Concert One', sans-serif;
+    font-size: 1.2em;
+    word-spacing: 3.2px;
+    line-height: 24px;
+    background: -webkit-radial-gradient(rgb(228, 218, 163, 0.5), #f5c96a80, rgb(230, 166, 71, .5));
+    border-radius: 7px;
+    position: relative;
+}
+
+
+
+.footer{
+    position: fixed;
+    height: 5vh;
+    width: 100vw;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: #e0c372;
+}
+
+.socmedlinks{
+    display: block;
+}
+
+.socmedlinks img{
+    height: 6vh;
+    width: 6vh;
+    float: right;
+    margin-right: 10vh;
+    margin-left: -5vh;
+    margin-top: -3vh;
+    text-decoration: none;
+}
+
+.rounded{
+    border-radius: 2px;
+}
+
+.yellow{
+    background-color: #f0f187;
+    color: #706310
+}
+
+.blue{
+    background-color: #bcc6e7;
+    color: #050a55;
+}
+
+.green{
+    background-color: #9edfb0;
+    color: #105f26;
+}
+
+.white{
+    background-color: #cc3d2a;
+    color: #ffffff;
+}
+
